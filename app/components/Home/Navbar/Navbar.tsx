@@ -43,7 +43,7 @@ export const Navbar = () => {
             </span>
           </a>
           {/* {Burger Menu For Mobile} */}
-          <HiBars3BottomRight className="w-8 h-8 cursor-pointer text-black" />
+          <HiBars3BottomRight className="w-8 h-8 cursor-pointer text-black lg:hidden" />
         </div>
       </div>
     </div>
