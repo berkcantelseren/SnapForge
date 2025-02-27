@@ -1,7 +1,7 @@
 import { navLinks } from "@/constant/constant";
 import Link from "next/link";
 import { GiGearHammer } from "react-icons/gi";
-import { HiBars3, HiBars3BottomRight } from "react-icons/hi2";
+import { HiBars3BottomRight } from "react-icons/hi2";
 
 export const Navbar = () => {
   return (
