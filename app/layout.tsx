@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Lato } from "next/font/google";
 import "./globals.css";
+import { ResponsiveNavbar } from "./components/Home/Navbar/ResponsiveNav";
 
 const lato = Lato({
   subsets: ["latin"],
@@ -20,7 +21,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${lato.className} antialiased`}>{children}</body>
+      <body className={`${lato.className} antialiased`}>
+        <ResponsiveNavbar />
+        {children}
+      </body>
     </html>
   );
 }

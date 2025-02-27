@@ -1,5 +1,5 @@
 import { MobileNavbar } from "./MobileNav";
-import { Navbar } from "./nav";
+import { Navbar } from "./Navbar";
 
 export const ResponsiveNavbar = () => {
   return (
