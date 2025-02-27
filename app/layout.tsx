@@ -8,7 +8,7 @@ const lato = Lato({
 });
 
 export const metadata: Metadata = {
-  title: "SnapForge | Automated Social Media Content",
+  title: "SnapForge",
   description:
     "Generate AI-powered social media posts and templates for your business or personal brand with SnapForge",
 };
