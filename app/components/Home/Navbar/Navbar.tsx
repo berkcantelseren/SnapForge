@@ -1,3 +1,5 @@
+import { navLinks } from "@/constant/constant";
+import Link from "next/link";
 import { GiGearHammer } from "react-icons/gi";
 
 export const Navbar = () => {
@@ -12,6 +14,20 @@ export const Navbar = () => {
           <h1 className="text-xl hidden sm:block md:text-2xl text-[#800020] font-bold">
             SnapForge
           </h1>
+        </div>
+        {/* {NavLinks} */}
+        <div className="hidden lg:flex items-center space-x-10">
+          {navLinks.map((link) => {
+            return (
+              <Link
+                href={link.url}
+                key={link.id}
+                className="text-black hover:text-[#9B2D2F] font-semibold transition-all duration-200"
+              >
+                <p>{link.label}</p>
+              </Link>
+            );
+          })}
         </div>
       </div>
     </div>
