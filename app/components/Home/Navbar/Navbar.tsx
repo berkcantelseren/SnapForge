@@ -1,6 +1,7 @@
 import { navLinks } from "@/constant/constant";
 import Link from "next/link";
 import { GiGearHammer } from "react-icons/gi";
+import { HiBars3, HiBars3BottomRight } from "react-icons/hi2";
 
 export const Navbar = () => {
   return (
@@ -28,6 +29,21 @@ export const Navbar = () => {
               </Link>
             );
           })}
+        </div>
+        {/* {Buttons} */}
+        <div className="flex items-center space-x-4">
+          <a
+            href="#_"
+            className="relative inline-block px-4 py-2 font-medium group"
+          >
+            <span className="absolute inset-0 w-full h-full transition duration-400 ease-out transform translate-x-1 translate-y-1 bg-[#800020] group-hover:-translate-x-0 group-hover:-translate-y-0"></span>
+            <span className="absolute inset-0 w-full h-full bg-white border-2 border-[#800020] group-hover:bg-[#800020]"></span>
+            <span className="relative text-[#800020] group-hover:text-white">
+              Create Account
+            </span>
+          </a>
+          {/* {Burger Menu For Mobile} */}
+          <HiBars3BottomRight className="w-8 h-8 cursor-pointer text-black" />
         </div>
       </div>
     </div>
