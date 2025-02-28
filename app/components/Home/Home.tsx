@@ -1,3 +1,9 @@
+import { Hero } from "./Hero/Hero";
+
 export const Home = () => {
-  return <div className="overflow-hidden">Home</div>;
+  return (
+    <div className="overflow-hidden">
+      <Hero />
+    </div>
+  );
 };
