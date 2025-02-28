@@ -31,7 +31,7 @@ export const Navbar = ({ openNav }: NavProps) => {
     >
       <div className="flex items-center h-full justify-between w-[90%] xl:w[80%] mx-auto">
         {/* {SnapForge Logo} */}
-        <div className="flex items-center space-x-2">
+        <div className="flex items-center space-x-2 lg:ml-21">
           <div className="w-12 h-12 bg-[#800020] rounded-full flex items-center justify-center flex-col">
             <GiGearHammer className="w-8 h-8 text-white" />
           </div>
@@ -40,13 +40,13 @@ export const Navbar = ({ openNav }: NavProps) => {
           </h1>
         </div>
         {/* {NavLinks} */}
-        <div className="hidden lg:flex items-center space-x-10">
+        <div className="hidden lg:flex items-center space-x-15">
           {navLinks.map((link) => {
             return (
               <Link
                 href={link.url}
                 key={link.id}
-                className="text-black hover:text-[#9B2D2F] font-semibold transition-all duration-200"
+                className="text-black hover:text-[#9B2D2F] hover:underline hover:underline-offset-5 font-semibold transition-all duration-200"
               >
                 <p>{link.label}</p>
               </Link>
