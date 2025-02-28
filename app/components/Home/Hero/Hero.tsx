@@ -13,7 +13,7 @@ export const Hero = () => {
           </p>
           <h1 className="text-2xl md:text-3xl lg:text-4xl mt-6 mb-6 font-bold text-[#800020] leading-tight">
             Automate, Improve, and Grow Faster with
-            <span className="text-[#36276B] ml-2 custom-selection-1">
+            <span className="text-[#6D63FF] ml-2 custom-selection-1">
               SnapForge
             </span>
           </h1>
@@ -94,7 +94,7 @@ export const Hero = () => {
             {/* Button 2 */}
             <a
               href="#_"
-              className="inline-flex custom-selection-1 items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-[#36276B] rounded-md hover:bg-[#5B47A6] sm:w-auto sm:mb-0"
+              className="inline-flex custom-selection-1 items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-[#6D63FF] rounded-md hover:bg-[#7a71ff] sm:w-auto sm:mb-0"
               data-primary="green-400"
               data-rounded="rounded-2xl"
               data-primary-reset="{}"
