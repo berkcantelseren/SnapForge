@@ -17,7 +17,7 @@ export const Hero = () => {
               SnapForge
             </span>
           </h1>
-          <p className="text-xs sm:text-sm md:text-base font-bold text-[#424242]">
+          <p className="text-xs sm:text-sm md:text-base text-gray-800">
             SnapForge is the key to unlocking your business's full potential. By
             automating workflows and integrating essential tools, it allows your
             team to work more efficiently, eliminate bottlenecks, and focus on
