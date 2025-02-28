@@ -1,11 +1,11 @@
 import type { Metadata } from "next";
-import { Lato } from "next/font/google";
+import { Rethink_Sans } from "next/font/google";
 import "./globals.css";
 import { ResponsiveNavbar } from "./components/Home/Navbar/ResponsiveNav";
 
-const lato = Lato({
+const font = Rethink_Sans({
+  weight: ["400", "500", "600", "700", "800"],
   subsets: ["latin"],
-  weight: ["400", "700"],
 });
 
 export const metadata: Metadata = {
@@ -21,7 +21,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${lato.className} antialiased`}>
+      <body className={`${font.className} antialiased`}>
         <ResponsiveNavbar />
         {children}
       </body>

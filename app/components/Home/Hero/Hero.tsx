@@ -11,8 +11,8 @@ export const Hero = () => {
           <p className="text-sm sm:text-base md:text-xl font-bold text-[#800020]">
             Optimize Your Workflow
           </p>
-          <h1 className="text 2xl md:text-3xl lg:text-4xl mt-6 mb-6 font-bold text-[#800020] leading-[2.5rem] md:leading-[3.5rem]">
-            Automate, Improve, and Grow Faster with{" "}
+          <h1 className="text-2xl md:text-3xl lg:text-4xl mt-6 mb-6 font-bold text-[#800020] leading-[2.5rem] md:leading-[3.5rem]">
+            Automate, Improve, and Grow Faster with
             <span className="text-[#36276B] ml-2">SnapForge</span>
           </h1>
           <p className="text-xs sm:text-sm md:text-base font-bold text-[#424242]">
@@ -50,17 +50,17 @@ export const Hero = () => {
                 </p>
               </div>
             </div>
-            <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-4 mt-5 sm:mt-0">
               <Image
                 src="/images/linkedin.png"
-                alt="Google Logo"
+                alt="LinkedIn Logo"
                 width={45}
                 height={45}
               />
               <div>
                 <div className="flex items-center space-x-2">
                   <h1 className="text-lg sm:text-xl md:text-2xl text-gray-700 font-bold">
-                    4.5
+                    4.7
                   </h1>
                   <div className="flex items-center">
                     <FaStar className="w-4 h-4 text-yellow-500 " />
@@ -112,7 +112,14 @@ export const Hero = () => {
           </div>
         </div>
         {/* Image Content Part */}
-        <div></div>
+        <div className="mx-auto hidden xl:block">
+          <Image
+            src="/images/hero.png"
+            alt="Dev productivity image"
+            width={900}
+            height={900}
+          />
+        </div>
       </div>
     </div>
   );

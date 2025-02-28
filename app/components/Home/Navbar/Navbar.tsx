@@ -35,7 +35,7 @@ export const Navbar = ({ openNav }: NavProps) => {
           <div className="w-12 h-12 bg-[#800020] rounded-full flex items-center justify-center flex-col">
             <GiGearHammer className="w-8 h-8 text-white" />
           </div>
-          <h1 className="text-xl hidden sm:block md:text-2xl text-[#800020] font-bold font-sans">
+          <h1 className="text-xl hidden sm:block md:text-2xl text-[#800020] font-bold">
             SnapForge
           </h1>
         </div>
