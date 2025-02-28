@@ -11,7 +11,7 @@ export const Hero = () => {
           <p className="text-sm sm:text-base md:text-xl font-bold text-[#800020]">
             Optimize Your Workflow
           </p>
-          <h1 className="text-2xl md:text-3xl lg:text-4xl mt-6 mb-6 font-bold text-[#800020] leading-[2.5rem] md:leading-[3.5rem]">
+          <h1 className="text-2xl md:text-3xl lg:text-4xl mt-6 mb-6 font-bold text-[#800020] leading-tight">
             Automate, Improve, and Grow Faster with
             <span className="text-[#36276B] ml-2">SnapForge</span>
           </h1>
