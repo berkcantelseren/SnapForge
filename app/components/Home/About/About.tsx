@@ -37,7 +37,7 @@ export const About = () => {
               </p>
               <div className="flex items-center space-x-6 mt-6">
                 <Image
-                  src="/images/pp1.png"
+                  src="/images/pp3.png"
                   alt="profile picture of social media manager"
                   width={60}
                   height={60}
