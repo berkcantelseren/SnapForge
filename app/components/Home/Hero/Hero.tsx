@@ -13,7 +13,9 @@ export const Hero = () => {
           </p>
           <h1 className="text-2xl md:text-3xl lg:text-4xl mt-6 mb-6 font-bold text-[#800020] leading-tight">
             Automate, Improve, and Grow Faster with
-            <span className="text-[#36276B] ml-2">SnapForge</span>
+            <span className="text-[#36276B] ml-2 custom-selection-1">
+              SnapForge
+            </span>
           </h1>
           <p className="text-xs sm:text-sm md:text-base font-bold text-[#424242]">
             SnapForge is the key to unlocking your business's full potential. By
@@ -31,6 +33,7 @@ export const Hero = () => {
                 alt="Google Logo"
                 width={45}
                 height={45}
+                className="select-none"
               />
               <div>
                 <div className="flex items-center space-x-2">
@@ -50,12 +53,13 @@ export const Hero = () => {
                 </p>
               </div>
             </div>
-            <div className="flex items-center space-x-4 mt-5 sm:mt-0">
+            <div className="flex items-center space-x-4 mt-5 sm:mt-0 ">
               <Image
                 src="/images/linkedin.png"
                 alt="LinkedIn Logo"
                 width={45}
                 height={45}
+                className="select-none"
               />
               <div>
                 <div className="flex items-center space-x-2">
@@ -90,7 +94,7 @@ export const Hero = () => {
             {/* Button 2 */}
             <a
               href="#_"
-              className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-[#36276B] rounded-md hover:bg-[#5B47A6] sm:w-auto sm:mb-0"
+              className="inline-flex custom-selection-1 items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-[#36276B] rounded-md hover:bg-[#5B47A6] sm:w-auto sm:mb-0"
               data-primary="green-400"
               data-rounded="rounded-2xl"
               data-primary-reset="{}"
@@ -118,6 +122,7 @@ export const Hero = () => {
             alt="Dev productivity image"
             width={900}
             height={900}
+            className="select-none"
           />
         </div>
       </div>
