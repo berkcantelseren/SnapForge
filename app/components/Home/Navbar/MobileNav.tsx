@@ -8,7 +8,7 @@ type NavProps = {
 };
 
 export const MobileNavbar = ({ closeNav, showNav }: NavProps) => {
-  const navOpen = showNav ? "translate-x-0" : "translate-x-[-100%]";
+  const navOpen = showNav ? "translate-x-0" : "-translate-x-full";
   return (
     <div>
       {/* Overlay Section For Hamburger */}
@@ -17,12 +17,12 @@ export const MobileNavbar = ({ closeNav, showNav }: NavProps) => {
       ></div>
       {/* NavLinks Mobile */}
       <div
-        className={`text-white ${navOpen}  fixed justify-center flex flex-col h-full transform transition-all duration-500 delay-300 w-[80%] sm:w-[60%] bg-[#800020] space-y-6 z-[1050]`}
+        className={`text-white ${navOpen} fixed top-0 left-0 justify-center flex flex-col h-full transform transition-all duration-500 delay-300 w-[80%] sm:w-[60%] bg-[#800020] space-y-6 z-[1050]`}
       >
         {navLinks.map((link) => {
           return (
             <Link key={link.id} href={link.url}>
-              <p className="text-white w-fit text-[20px] m1-12 border-b-[1.5px] pb-1 border-white sm:text-[30px]">
+              <p className="text-white w-fit text-[20px] ml-15 border-b-[1.5px] pb-1 border-white sm:text-[30px]">
                 {link.label}
               </p>
             </Link>
