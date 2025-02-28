@@ -29,9 +29,9 @@ export const Navbar = ({ openNav }: NavProps) => {
         navBg ? "bg-white shadow-md shadow-[#c9c3c5]" : "fixed"
       } duration-200 h-[12vh] z-[100] fixed w-full`}
     >
-      <div className="flex items-center h-full justify-between w-[90%] xl:w[80%] mx-auto">
+      <div className="flex items-center h-full lg:justify-around justify-between w-[90%] xl:w[80%] mx-auto">
         {/* {SnapForge Logo} */}
-        <div className="flex items-center space-x-2 lg:ml-21">
+        <div className="flex items-center space-x-2 ml:auto">
           <div className="w-12 h-12 bg-[#800020] rounded-full flex items-center justify-center flex-col">
             <GiGearHammer className="w-8 h-8 text-white" />
           </div>

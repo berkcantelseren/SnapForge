@@ -13,7 +13,7 @@ export const Hero = () => {
           </p>
           <h1 className="text 2xl md:text-3xl lg:text-4xl mt-6 mb-6 font-bold text-[#800020] leading-[2.5rem] md:leading-[3.5rem]">
             Automate, Improve, and Grow Faster with{" "}
-            <span className="text-[#424242] ml-2">SnapForge</span>
+            <span className="text-[#36276B] ml-2">SnapForge</span>
           </h1>
           <p className="text-xs sm:text-sm md:text-base font-bold text-[#424242]">
             SnapForge is the key to unlocking your business's full potential. By
@@ -50,33 +50,65 @@ export const Hero = () => {
                 </p>
               </div>
             </div>
-            <div className="flex sm:flex-row flex-col sm-items-center sm:space-x-10">
-              <div className="flex items-center space-x-4">
-                <Image
-                  src="/images/linkedin.png"
-                  alt="LinkedIn Logo"
-                  width={45}
-                  height={45}
-                />
-                <div>
-                  <div className="flex items-center space-x-2">
-                    <h1 className="text-lg sm:text-xl md:text-2xl text-gray-700 font-bold">
-                      4.5
-                    </h1>
-                    <div className="flex items-center">
-                      <FaStar className="w-4 h-4 text-yellow-500 " />
-                      <FaStar className="w-4 h-4 text-yellow-500 " />
-                      <FaStar className="w-4 h-4 text-yellow-500 " />
-                      <FaStar className="w-4 h-4 text-yellow-500 " />
-                      <BsStarHalf className="w-4 h-4 text-yellow-500 " />
-                    </div>
+            <div className="flex items-center space-x-4">
+              <Image
+                src="/images/linkedin.png"
+                alt="Google Logo"
+                width={45}
+                height={45}
+              />
+              <div>
+                <div className="flex items-center space-x-2">
+                  <h1 className="text-lg sm:text-xl md:text-2xl text-gray-700 font-bold">
+                    4.5
+                  </h1>
+                  <div className="flex items-center">
+                    <FaStar className="w-4 h-4 text-yellow-500 " />
+                    <FaStar className="w-4 h-4 text-yellow-500 " />
+                    <FaStar className="w-4 h-4 text-yellow-500 " />
+                    <FaStar className="w-4 h-4 text-yellow-500 " />
+                    <BsStarHalf className="w-4 h-4 text-yellow-500 " />
                   </div>
-                  <p className="text-gray-700 text-sm font-bold sm:text-base">
-                    Best Rated on LinkedIn
-                  </p>
                 </div>
+                <p className="text-gray-700 text-sm font-bold sm:text-base">
+                  Best Rated on LinkedIn
+                </p>
               </div>
             </div>
+          </div>
+          {/* Buttons */}
+          <div className="mt-8 flex flex-col sm:flex-row w-fit sm:items-center space-y-4 sm:space-y-0 sm:space-x-4">
+            <a
+              href="#_"
+              className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-[#800020] rounded-md hover:bg-[#9B2D2F] sm:w-auto sm:mb-0"
+              data-primary="green-400"
+              data-rounded="rounded-2xl"
+              data-primary-reset="{}"
+            >
+              Start Free Trial
+            </a>
+            {/* Button 2 */}
+            <a
+              href="#_"
+              className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-[#36276B] rounded-md hover:bg-[#5B47A6] sm:w-auto sm:mb-0"
+              data-primary="green-400"
+              data-rounded="rounded-2xl"
+              data-primary-reset="{}"
+            >
+              Get Started
+              <svg
+                className="w-4 h-4 ml-1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 20 20"
+                fill="currentColor"
+              >
+                <path
+                  fillRule="evenodd"
+                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                  clipRule="evenodd"
+                ></path>
+              </svg>
+            </a>
           </div>
         </div>
         {/* Image Content Part */}
