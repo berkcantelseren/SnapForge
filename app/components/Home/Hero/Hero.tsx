@@ -29,8 +29,8 @@ export const Hero = () => {
               <Image
                 src="/images/google.png"
                 alt="Google Logo"
-                width={40}
-                height={40}
+                width={45}
+                height={45}
               />
               <div>
                 <div className="flex items-center space-x-2">
@@ -44,6 +44,36 @@ export const Hero = () => {
                     <FaStar className="w-4 h-4 text-yellow-500 " />
                     <BsStarHalf className="w-4 h-4 text-yellow-500 " />
                   </div>
+                </div>
+                <p className="text-gray-700 text-sm font-bold sm:text-base">
+                  Best Rated on Google
+                </p>
+              </div>
+            </div>
+            <div className="flex sm:flex-row flex-col sm-items-center sm:space-x-10">
+              <div className="flex items-center space-x-4">
+                <Image
+                  src="/images/linkedin.png"
+                  alt="LinkedIn Logo"
+                  width={45}
+                  height={45}
+                />
+                <div>
+                  <div className="flex items-center space-x-2">
+                    <h1 className="text-lg sm:text-xl md:text-2xl text-gray-700 font-bold">
+                      4.5
+                    </h1>
+                    <div className="flex items-center">
+                      <FaStar className="w-4 h-4 text-yellow-500 " />
+                      <FaStar className="w-4 h-4 text-yellow-500 " />
+                      <FaStar className="w-4 h-4 text-yellow-500 " />
+                      <FaStar className="w-4 h-4 text-yellow-500 " />
+                      <BsStarHalf className="w-4 h-4 text-yellow-500 " />
+                    </div>
+                  </div>
+                  <p className="text-gray-700 text-sm font-bold sm:text-base">
+                    Best Rated on LinkedIn
+                  </p>
                 </div>
               </div>
             </div>
