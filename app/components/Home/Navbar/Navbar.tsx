@@ -3,7 +3,11 @@ import Link from "next/link";
 import { GiGearHammer } from "react-icons/gi";
 import { HiBars3BottomRight } from "react-icons/hi2";
 
-export const Navbar = () => {
+type NavProps = {
+  openNav: () => void;
+};
+
+export const Navbar = ({ openNav }: NavProps) => {
   return (
     <div className="transition-all duration-200 h-[12vh] z-[100] fixed w-full">
       <div className="flex items-center h-full justify-between w-[90%] xl:w[80%] mx-auto">
@@ -43,7 +47,10 @@ export const Navbar = () => {
             </span>
           </a>
           {/* {Burger Menu For Mobile} */}
-          <HiBars3BottomRight className="w-8 h-8 cursor-pointer text-black lg:hidden" />
+          <HiBars3BottomRight
+            onClick={openNav}
+            className="w-8 h-8 cursor-pointer text-black lg:hidden"
+          />
         </div>
       </div>
     </div>
