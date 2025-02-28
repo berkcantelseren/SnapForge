@@ -39,9 +39,16 @@ export const About = () => {
                 <Image
                   src="/images/pp1.png"
                   alt="profile picture of social media manager"
-                  width={40}
-                  height={40}
+                  width={60}
+                  height={60}
+                  className="rounded-full"
                 />
+                <div>
+                  <p className="font-medium">Robert Downson</p>
+                  <p className="text-gray-700 text-sm">
+                    Social Media Specialist @RoboChef
+                  </p>
+                </div>
               </div>
             </div>
           </div>
