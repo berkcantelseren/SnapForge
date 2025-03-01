@@ -21,7 +21,7 @@ export const About = () => {
           <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mt-3 leading-[2.5rem] sm:leading-[3rem]">
             Optimizing Your Business With Automation
           </h1>
-          <p className="mt-3 leading-relaxed text-sm sm:text-base text-gray-800">
+          <p className="mt-3 leading-relaxed text-sm sm:text-base text-gray-700">
             SnapForge is dedicated to helping businesses improve efficiency by
             automating their daily operations. Our intuitive platform enables
             teams to focus on more strategic tasks while the repetitive work is
