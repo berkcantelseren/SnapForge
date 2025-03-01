@@ -21,8 +21,92 @@ export const Services = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 items-center gap-y-12 mt-16">
           {/* 1st Service Section  */}
           <div className="flex items-center space-x-5">
-            <div className="w-14 h-14 rounded-md flex items-center justify-center flex-col bg-[#9B2D2F]">
+            {/* Icon Section  */}
+            <div className="w-14 h-14 min-h-[3rem] min-w-[3.5rem] rounded-md flex items-center justify-center flex-col bg-[#9B2D2F]">
               <FaRocket className="text-white w-6 h-6" />
+            </div>
+            {/* Text Section  */}
+            <div>
+              <p className="text-lg font-bold text-gray-800">Start Up</p>
+              <p className="text-sm text-gray-700">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore, nostrum perspiciatis?
+              </p>
+            </div>
+          </div>
+          {/* 1st Service Section  */}
+          <div className="flex items-center space-x-5">
+            {/* Icon Section  */}
+            <div className="w-14 h-14 min-h-[3rem] min-w-[3.5rem] rounded-md flex items-center justify-center flex-col bg-[#9B2D2F]">
+              <FaRocket className="text-white w-6 h-6" />
+            </div>
+            {/* Text Section  */}
+            <div>
+              <p className="text-lg font-bold text-gray-800">Start Up</p>
+              <p className="text-sm text-gray-700">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore, nostrum perspiciatis?
+              </p>
+            </div>
+          </div>
+          {/* 1st Service Section  */}
+          <div className="flex items-center space-x-5">
+            {/* Icon Section  */}
+            <div className="w-14 h-14 min-h-[3rem] min-w-[3.5rem] rounded-md flex items-center justify-center flex-col bg-[#9B2D2F]">
+              <FaRocket className="text-white w-6 h-6" />
+            </div>
+            {/* Text Section  */}
+            <div>
+              <p className="text-lg font-bold text-gray-800">Start Up</p>
+              <p className="text-sm text-gray-700">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore, nostrum perspiciatis?
+              </p>
+            </div>
+          </div>
+          {/* 1st Service Section  */}
+          <div className="flex items-center space-x-5">
+            {/* Icon Section  */}
+            <div className="w-14 h-14 min-h-[3rem] min-w-[3.5rem] rounded-md flex items-center justify-center flex-col bg-[#9B2D2F]">
+              <FaRocket className="text-white w-6 h-6" />
+            </div>
+            {/* Text Section  */}
+            <div>
+              <p className="text-lg font-bold text-gray-800">Start Up</p>
+              <p className="text-sm text-gray-700">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore, nostrum perspiciatis?
+              </p>
+            </div>
+          </div>
+          {/* 1st Service Section  */}
+          <div className="flex items-center space-x-5">
+            {/* Icon Section  */}
+            <div className="w-14 h-14 min-h-[3rem] min-w-[3.5rem] rounded-md flex items-center justify-center flex-col bg-[#9B2D2F]">
+              <FaRocket className="text-white w-6 h-6" />
+            </div>
+            {/* Text Section  */}
+            <div>
+              <p className="text-lg font-bold text-gray-800">Start Up</p>
+              <p className="text-sm text-gray-700">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore, nostrum perspiciatis?
+              </p>
+            </div>
+          </div>
+          {/* 1st Service Section  */}
+          <div className="flex items-center space-x-5">
+            {/* Icon Section  */}
+            <div className="w-14 h-14 min-h-[3rem] min-w-[3.5rem] rounded-md flex items-center justify-center flex-col bg-[#9B2D2F]">
+              <FaRocket className="text-white w-6 h-6" />
+            </div>
+            {/* Text Section  */}
+            <div>
+              <p className="text-lg font-bold text-gray-800">Start Up</p>
+              <p className="text-sm text-gray-700">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Inventore, nostrum perspiciatis?
+              </p>
             </div>
           </div>
         </div>
