@@ -12,6 +12,7 @@ export const About = () => {
             alt="File Search Image"
             width={600}
             height={600}
+            className="select-none"
           />
         </div>
         {/* Text Content */}
@@ -41,7 +42,7 @@ export const About = () => {
                   alt="profile picture of social media manager"
                   width={60}
                   height={60}
-                  className="rounded-full"
+                  className="rounded-full select-none"
                 />
                 <div>
                   <p className="font-medium">Robert Downson</p>
