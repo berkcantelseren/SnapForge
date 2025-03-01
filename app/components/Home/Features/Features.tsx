@@ -23,7 +23,7 @@ export const Features = () => {
           <div className="bg-white p-4 rounded-lg ">
             <div className="flex items-center space-x-3">
               {/* icon */}
-              <div className="w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-[#9B2D2F] bg-opacity-20">
+              <div className="w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-[#9B2D2F] ">
                 <FaArrowsRotate className="text-white w-6 h-6" />
               </div>
               {/* Heading */}
@@ -41,7 +41,7 @@ export const Features = () => {
           <div className="bg-white p-4 rounded-lg ">
             <div className="flex items-center space-x-3">
               {/* icon */}
-              <div className="w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-[#9B2D2F] bg-opacity-20">
+              <div className="w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-[#9B2D2F] ">
                 <FaChartLine className="text-white w-6 h-6" />
               </div>
               {/* Heading */}
@@ -59,7 +59,7 @@ export const Features = () => {
           <div className="bg-white p-4 rounded-lg ">
             <div className="flex items-center space-x-3">
               {/* icon */}
-              <div className="w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-[#9B2D2F] bg-opacity-20">
+              <div className="w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-[#9B2D2F] ">
                 <AiOutlineApi className="text-white w-6 h-6" />
               </div>
               {/* Heading */}
@@ -77,7 +77,7 @@ export const Features = () => {
           <div className="bg-white p-4 rounded-lg ">
             <div className="flex items-center space-x-3">
               {/* icon */}
-              <div className="w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-[#9B2D2F] bg-opacity-20">
+              <div className="w-12 h-12 rounded-3xl flex items-center justify-center flex-col bg-[#9B2D2F] ">
                 <FaPalette className="text-white w-6 h-6" />
               </div>
               {/* Heading */}

@@ -1,3 +1,4 @@
+import { FaRocket } from "react-icons/fa6";
 import BoxText from "../../Helper/BoxText";
 
 export const Services = () => {
@@ -16,6 +17,15 @@ export const Services = () => {
           business, or a large enterprise, our platform offers solutions to help
           everyone!
         </p>
+        {/* Grid Section */}
+        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-8 items-center gap-y-12 mt-16">
+          {/* 1st Service Section  */}
+          <div className="flex items-center space-x-5">
+            <div className="w-14 h-14 rounded-md flex items-center justify-center flex-col bg-[#9B2D2F]">
+              <FaRocket className="text-white w-6 h-6" />
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );
