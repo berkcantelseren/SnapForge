@@ -77,13 +77,13 @@ export default function Footer() {
         </p>
         <div className="flex items-center space-x-4 mt-4 md:mt-0">
           <span>Our Socials:</span>
-          <span className="text-[#FE089A]">
+          <span className="text-[#FE089A] transition-transform duration-200 ease-in-out transform hover:scale-120 will-change-transform">
             <FaSquareInstagram className="w-6 h-6" />
           </span>
-          <span className="text-black">
+          <span className="text-black transition-transform duration-200 ease-in-out transform hover:scale-120 will-change-transform">
             <FaSquareXTwitter className="w-6 h-6" />
           </span>
-          <span className="text-[#0A78B5]">
+          <span className="text-[#0A78B5] transition-transform duration-200 ease-in-out transform hover:scale-120 will-change-transform">
             <FaLinkedin className="w-6 h-6" />
           </span>
         </div>
