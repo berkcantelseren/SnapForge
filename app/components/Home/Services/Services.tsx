@@ -33,7 +33,9 @@ export const Services = () => {
             </div>
             {/* Text Section  */}
             <div>
-              <p className="text-lg font-bold text-gray-800">Start Up</p>
+              <p className="text-lg font-bold text-gray-800 custom-selection-3">
+                Start Up
+              </p>
               <p className="text-sm text-gray-700">
                 Kickstart your startup with SnapForge’s automation and seamless
                 workflow solutions.
@@ -48,7 +50,7 @@ export const Services = () => {
             </div>
             {/* Text Section  */}
             <div>
-              <p className="text-lg font-bold text-gray-800">
+              <p className="text-lg font-bold text-gray-800 custom-selection-3">
                 Full-Time Access
               </p>
               <p className="text-sm text-gray-700">
@@ -65,7 +67,9 @@ export const Services = () => {
             </div>
             {/* Text Section  */}
             <div>
-              <p className="text-lg font-bold text-gray-800">Media Agencies</p>
+              <p className="text-lg font-bold text-gray-800 custom-selection-3">
+                Media Agencies
+              </p>
               <p className="text-sm text-gray-700">
                 Streamline client workflows and optimize ad operations with
                 SnapForge for media agencies.
@@ -80,7 +84,9 @@ export const Services = () => {
             </div>
             {/* Text Section  */}
             <div>
-              <p className="text-lg font-bold text-gray-800">Business</p>
+              <p className="text-lg font-bold text-gray-800 custom-selection-3">
+                Business
+              </p>
               <p className="text-sm text-gray-700">
                 SnapForge enables businesses to save time, reduce errors, and
                 drive consistent growth.
@@ -95,7 +101,9 @@ export const Services = () => {
             </div>
             {/* Text Section  */}
             <div>
-              <p className="text-lg font-bold text-gray-800">7/24 Support</p>
+              <p className="text-lg font-bold text-gray-800 custom-selection-3">
+                7/24 Support
+              </p>
               <p className="text-sm text-gray-700">
                 SnapForge offers constant support, ensuring you're never alone
                 in your journey.
@@ -110,7 +118,9 @@ export const Services = () => {
             </div>
             {/* Text Section  */}
             <div>
-              <p className="text-lg font-bold text-gray-800">Streamers</p>
+              <p className="text-lg font-bold text-gray-800 custom-selection-3">
+                Streamers
+              </p>
               <p className="text-sm text-gray-700">
                 SnapForge saves streamers valuable time by managing social
                 media, so you can stay live.

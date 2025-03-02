@@ -19,13 +19,17 @@ export const ReviewsCard = ({ image, name, rating, desc }: Props) => {
           alt="Reviews Card Profile Picture"
           width={400}
           height={400}
-          className="rounded-lg"
+          className="rounded-lg select-none"
         />
       </div>
       <div>
-        <h1 className="text-lg font-bold text-gray-800">{name}</h1>
+        <h1 className="text-lg font-bold text-gray-800 custom-selection-3">
+          {name}
+        </h1>
         <div className="flex items-center space-x-3">
-          <p className="text-2xl font-bold text-orange-500">{rating}</p>
+          <p className="text-2xl font-bold text-orange-500 select-none">
+            {rating}
+          </p>
           <div className="flex items-center ">
             <FaStar className="w-4 h-4 text-yellow-600" />
             <FaStar className="w-4 h-4 text-yellow-600" />

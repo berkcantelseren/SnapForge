@@ -3,7 +3,7 @@ import PriceCard from "./PriceCard";
 export default function Pricing() {
   return (
     <div className="pt-16 pb-16 bg-gray-100">
-      <h1 className="text-center text-2xl text-gray-800 font-bold">
+      <h1 className="text-center text-2xl text-gray-800 font-bold custom-selection-3">
         Pick the Plan That Fits You Best
       </h1>
       {/* Grid Section  */}
@@ -12,24 +12,25 @@ export default function Pricing() {
           {/* Price Card Section  */}
           <PriceCard
             time="Monthly"
-            price="10$"
-            desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nemo."
+            price="10"
+            desc="Get access to all our features perfect for those who prefer flexibility and lower commitment. Enjoy full access with no long term obligation, making it easy to scale as your business grows."
           />
         </div>
         <div>
           {/* Price Card Section  */}
           <PriceCard
             time="Yearly"
-            price="99$"
-            desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nemo.2"
+            price="99"
+            desc="Enjoy exceptional savings with our annual subscription, granting you access to all SnapForge features for an entire year. Benefit from premium support and start your business’s growth."
           />
         </div>
         <div>
           {/* Price Card Section  */}
           <PriceCard
             time="Lifetime"
-            price="349$"
-            desc="Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione, nemo.3"
+            price="349"
+            desc="Unlock unlimited access to SnapForge for life! One time payment, no recurring fees, and lifetime support. Invest in your business's growth with an all inclusive plan that grows with you.
+            "
           />
         </div>
       </div>
