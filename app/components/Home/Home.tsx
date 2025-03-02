@@ -1,6 +1,7 @@
 import { About } from "./About/About";
 import { Features } from "./Features/Features";
 import { Hero } from "./Hero/Hero";
+import Pricing from "./Pricing/Pricing";
 import { Reviews } from "./Reviews/Reviews";
 import { Services } from "./Services/Services";
 
@@ -12,6 +13,7 @@ export const Home = () => {
       <Features />
       <Services />
       <Reviews />
+      <Pricing />
     </div>
   );
 };
