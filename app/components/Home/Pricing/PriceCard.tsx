@@ -23,7 +23,7 @@ export default function PriceCard({ time, price, desc }: Props) {
           data-rounded="rounded-2xl"
           data-primary-reset="{}"
         >
-          Start Now!
+          Choose Plan
         </a>
       </div>
     </div>
