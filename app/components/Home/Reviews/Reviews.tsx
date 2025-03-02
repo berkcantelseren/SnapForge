@@ -13,25 +13,25 @@ export const Reviews = () => {
       {/* Grid Section  */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-center mt-16 w-[80%] mx-auto">
         <div>
-          <ReviewsCard image="/images/card1.jpg" name="Mark Lee" rating="4.7" />
+          <ReviewsCard image="/images/card4.png" name="Mark Lee" rating="4.7" />
         </div>
         <div>
           <ReviewsCard
-            image="/images/card2.jpg"
+            image="/images/card1.png"
             name="Zoe Smith"
             rating="4.5"
           />
         </div>
         <div>
           <ReviewsCard
-            image="/images/card3.jpg"
+            image="/images/card2.png"
             name="Jacob Hill"
             rating="4.9"
           />
         </div>
         <div>
           <ReviewsCard
-            image="/images/card4.jpg"
+            image="/images/card3.png"
             name="Michelle Morgan"
             rating="4.8"
           />

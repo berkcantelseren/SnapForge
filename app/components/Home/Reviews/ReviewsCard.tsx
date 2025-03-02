@@ -16,15 +16,15 @@ export const ReviewsCard = ({ image, name, rating }: Props) => {
         <Image
           src={image}
           alt="Reviews Card Profile Picture"
-          width={350}
-          height={350}
+          width={150}
+          height={150}
           className="rounded-lg"
         />
       </div>
       <div>
         <h1 className="text-lg font-bold text-gray-800">{name}</h1>
         <div className="flex items-center space-x-3">
-          <p>{rating}</p>
+          <p className="text-2xl font-bold text-orange-500">{rating}</p>
           <div className="flex items-center ">
             <FaStar className="w-4 h-4 text-yellow-600" />
             <FaStar className="w-4 h-4 text-yellow-600" />
