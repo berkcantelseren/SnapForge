@@ -71,7 +71,10 @@ export default function Footer() {
         </div>
       </div>
       {/* Bottom Part Footer  */}
-      <div className="mt-8 w-[80%] mx-auto border-t pt-8 flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm">
+      <div
+        id="contact"
+        className="mt-8 w-[80%] mx-auto border-t pt-8 flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm"
+      >
         <p className="text-center md:text-left">
           Copyright © 2025 brkcntlsrn All rights reserved
         </p>

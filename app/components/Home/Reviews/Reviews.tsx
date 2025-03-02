@@ -2,7 +2,7 @@ import { ReviewsCard } from "./ReviewsCard";
 
 export const Reviews = () => {
   return (
-    <div className="pt-16 pb-16 bg-[#f4f4f4]">
+    <div id="reviews" className="pt-16 pb-16 bg-[#f4f4f4]">
       <h1 className="text-center text-2xl font-bold text-gray-800 custom-selection-3">
         See What Our Clients Say
       </h1>
