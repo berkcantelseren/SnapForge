@@ -34,7 +34,7 @@ export const Reviews = () => {
             image="/images/card12.png"
             name="Jacob Hill"
             rating="4.9"
-            desc="Running a business means juggling multiple tasks SnapForge automates what we need, so we can focus on growth."
+            desc="Managing a business is easier with SnapForge, freeing us from repetitive work so we can scale faster."
           />
         </div>
         <div>

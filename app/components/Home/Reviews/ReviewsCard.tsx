@@ -17,8 +17,8 @@ export const ReviewsCard = ({ image, name, rating, desc }: Props) => {
         <Image
           src={image}
           alt="Reviews Card Profile Picture"
-          width={350}
-          height={350}
+          width={400}
+          height={400}
           className="rounded-lg"
         />
       </div>
