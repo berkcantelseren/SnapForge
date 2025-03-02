@@ -14,6 +14,18 @@ export default function PriceCard({ time, price, desc }: Props) {
           <span className="text-4xl font-bold text-black">${price}</span>
         </div>
       </div>
+      {/* Button  */}
+      <div className="mt-12">
+        <a
+          href="#_"
+          className="inline-flex items-center justify-center w-full px-6 py-3 mb-2 text-lg text-white bg-[#800020] rounded-md hover:bg-[#9B2D2F] sm:w-auto sm:mb-0"
+          data-primary="green-400"
+          data-rounded="rounded-2xl"
+          data-primary-reset="{}"
+        >
+          Start Now!
+        </a>
+      </div>
     </div>
   );
 }
