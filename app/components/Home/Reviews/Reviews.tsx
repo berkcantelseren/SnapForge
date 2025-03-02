@@ -17,6 +17,8 @@ export const Reviews = () => {
             image="/images/card14.png"
             name="Mark Lee"
             rating="4.7"
+            desc="As a startup founder, efficiency is everything. SnapForge streamlined
+          our processes and saved us countless hours."
           />
         </div>
         <div>
@@ -24,6 +26,7 @@ export const Reviews = () => {
             image="/images/card11.png"
             name="Zoe Smith"
             rating="4.5"
+            desc="Managing social media as a streamer was overwhelming, but SnapForge saves me hours every week!"
           />
         </div>
         <div>
@@ -31,6 +34,7 @@ export const Reviews = () => {
             image="/images/card12.png"
             name="Jacob Hill"
             rating="4.9"
+            desc="Running a business means juggling multiple tasks SnapForge automates what we need, so we can focus on growth."
           />
         </div>
         <div>
@@ -38,6 +42,7 @@ export const Reviews = () => {
             image="/images/card13.png"
             name="Michelle Morgan"
             rating="4.8"
+            desc="SnapForge’s automation tools helped our agency improve efficiency and handle more clients with ease."
           />
         </div>
       </div>

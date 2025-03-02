@@ -6,9 +6,10 @@ type Props = {
   image: string;
   name: string;
   rating: string;
+  desc: string;
 };
 
-export const ReviewsCard = ({ image, name, rating }: Props) => {
+export const ReviewsCard = ({ image, name, rating, desc }: Props) => {
   return (
     <div className="bg-white shadow-md p-8 sm:flex items-center space-y-4 sm:space-y-0 space-x-6 rounded-lg">
       {/* Image  */}
@@ -16,8 +17,8 @@ export const ReviewsCard = ({ image, name, rating }: Props) => {
         <Image
           src={image}
           alt="Reviews Card Profile Picture"
-          width={150}
-          height={150}
+          width={350}
+          height={350}
           className="rounded-lg"
         />
       </div>
@@ -33,6 +34,7 @@ export const ReviewsCard = ({ image, name, rating }: Props) => {
             <BsStarHalf className="w-4 h-4 text-yellow-600" />
           </div>
         </div>
+        <p className="mt-2 text-base text-gray-700 font-medium">{desc}</p>
       </div>
     </div>
   );
