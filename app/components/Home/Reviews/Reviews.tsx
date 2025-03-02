@@ -9,6 +9,9 @@ export const Reviews = () => {
         workload, and achieve growth with SnapForge.
       </p>
       {/* Grid Section  */}
+      <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-center mt-16 w-[80%] mx-auto">
+        <div></div>
+      </div>
     </div>
   );
 };
