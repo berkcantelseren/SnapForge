@@ -6,7 +6,7 @@ export const Features = () => {
   return (
     <div className="pt-16 pb-16 bg-[#f4f4f4]">
       <div>
-        <h1 className="text-center text-2xl font-bold text-gray-800">
+        <h1 className="text-center text-2xl font-bold text-gray-800 custom-selection-3">
           Why Choose SnapForge?
         </h1>
         <p className="mt-3 text-center font-medium text-gray-700 w-[90%] sm:w-[70%] md:w-[50%] mx-auto">
@@ -27,7 +27,7 @@ export const Features = () => {
                 <FaArrowsRotate className="text-white w-6 h-6" />
               </div>
               {/* Heading */}
-              <h1 className="text-lg font-bold text-gray-700">
+              <h1 className="text-lg font-bold text-gray-700 custom-selection-3">
                 Workflow Automation
               </h1>
             </div>
@@ -45,7 +45,7 @@ export const Features = () => {
                 <FaChartLine className="text-white w-6 h-6" />
               </div>
               {/* Heading */}
-              <h1 className="text-lg font-bold text-gray-700">
+              <h1 className="text-lg font-bold text-gray-700 custom-selection-3">
                 Process Optimization
               </h1>
             </div>
@@ -63,7 +63,7 @@ export const Features = () => {
                 <AiOutlineApi className="text-white w-6 h-6" />
               </div>
               {/* Heading */}
-              <h1 className="text-lg font-bold text-gray-700">
+              <h1 className="text-lg font-bold text-gray-700 custom-selection-3">
                 Seamless Integrations
               </h1>
             </div>
@@ -81,7 +81,7 @@ export const Features = () => {
                 <FaPalette className="text-white w-6 h-6" />
               </div>
               {/* Heading */}
-              <h1 className="text-lg font-bold text-gray-700">
+              <h1 className="text-lg font-bold text-gray-700 custom-selection-3">
                 Custom Templates
               </h1>
             </div>

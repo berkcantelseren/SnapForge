@@ -18,7 +18,7 @@ export const About = () => {
         {/* Text Content */}
         <div>
           <BoxText>About Us</BoxText>
-          <h1 className="text-2xl sm:text-3xl font-bold text-gray-800 mt-3 leading-[2.5rem] sm:leading-[3rem]">
+          <h1 className="text-2xl sm:text-3xl font-bold custom-selection-3 text-gray-800 mt-3 leading-[2.5rem] sm:leading-[3rem]">
             Optimizing Your Business With Automation
           </h1>
           <p className="mt-3 leading-relaxed text-sm sm:text-base text-gray-700">

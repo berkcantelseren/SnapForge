@@ -13,7 +13,7 @@ export const Services = () => {
       <div className="w-[80%] mx-auto">
         <BoxText>Our Services</BoxText>
         {/* Heading  */}
-        <h1 className="mt-4 text-2xl md:text-3xl font-bold text-gray-800">
+        <h1 className="mt-4 text-2xl md:text-3xl font-bold text-gray-800 custom-selection-3">
           SnapForge Made For You?
         </h1>
         {/* Info */}
@@ -35,8 +35,8 @@ export const Services = () => {
             <div>
               <p className="text-lg font-bold text-gray-800">Start Up</p>
               <p className="text-sm text-gray-700">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Inventore, nostrum perspiciatis?
+                Kickstart your startup with SnapForge’s automation and seamless
+                workflow solutions.
               </p>
             </div>
           </div>
@@ -52,8 +52,8 @@ export const Services = () => {
                 Full-Time Access
               </p>
               <p className="text-sm text-gray-700">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Inventore, nostrum perspiciatis?
+                Lifetime Membership offers unlimited access, ensuring your
+                business never stops growing.
               </p>
             </div>
           </div>
@@ -65,10 +65,10 @@ export const Services = () => {
             </div>
             {/* Text Section  */}
             <div>
-              <p className="text-lg font-bold text-gray-800">Agencies</p>
+              <p className="text-lg font-bold text-gray-800">Media Agencies</p>
               <p className="text-sm text-gray-700">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Inventore, nostrum perspiciatis?
+                Streamline client workflows and optimize ad operations with
+                SnapForge for media agencies.
               </p>
             </div>
           </div>
@@ -82,8 +82,8 @@ export const Services = () => {
             <div>
               <p className="text-lg font-bold text-gray-800">Business</p>
               <p className="text-sm text-gray-700">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Inventore, nostrum perspiciatis?
+                SnapForge enables businesses to save time, reduce errors, and
+                drive consistent growth.
               </p>
             </div>
           </div>
@@ -97,8 +97,8 @@ export const Services = () => {
             <div>
               <p className="text-lg font-bold text-gray-800">7/24 Support</p>
               <p className="text-sm text-gray-700">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Inventore, nostrum perspiciatis?
+                SnapForge offers constant support, ensuring you're never alone
+                in your journey.
               </p>
             </div>
           </div>
@@ -112,8 +112,8 @@ export const Services = () => {
             <div>
               <p className="text-lg font-bold text-gray-800">Streamers</p>
               <p className="text-sm text-gray-700">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Inventore, nostrum perspiciatis?
+                SnapForge saves streamers valuable time by managing social
+                media, so you can stay live.
               </p>
             </div>
           </div>

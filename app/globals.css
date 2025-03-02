@@ -15,3 +15,8 @@
   background-color: #800020;
   color: white;
 }
+
+.custom-selection-3::selection {
+  background-color: var(--color-gray-800);
+  color: white;
+}
