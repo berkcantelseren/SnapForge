@@ -1,3 +1,5 @@
+import { ReviewsCard } from "./ReviewsCard";
+
 export const Reviews = () => {
   return (
     <div className="pt-16 pb-16 bg-[#f4f4f4]">
@@ -10,7 +12,30 @@ export const Reviews = () => {
       </p>
       {/* Grid Section  */}
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 items-center mt-16 w-[80%] mx-auto">
-        <div></div>
+        <div>
+          <ReviewsCard image="/images/card1.jpg" name="Mark Lee" rating="4.7" />
+        </div>
+        <div>
+          <ReviewsCard
+            image="/images/card2.jpg"
+            name="Zoe Smith"
+            rating="4.5"
+          />
+        </div>
+        <div>
+          <ReviewsCard
+            image="/images/card3.jpg"
+            name="Jacob Hill"
+            rating="4.9"
+          />
+        </div>
+        <div>
+          <ReviewsCard
+            image="/images/card4.jpg"
+            name="Michelle Morgan"
+            rating="4.8"
+          />
+        </div>
       </div>
     </div>
   );
