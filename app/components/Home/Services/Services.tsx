@@ -15,7 +15,7 @@ export const Services = () => {
         {/* Info */}
         <p className="mt-4 w-full sm:w-[80%] md:w-[70%] lg:w[60%] lg:w[50%] text-gray-700 ">
           SnapForge is designed to optimize workflows and drive efficiency
-          across various industries. Whether you're a startup, a growing
+          across various industries. Whether you&apos;re a startup, a growing
           business, or a large enterprise, our platform offers solutions to help
           everyone!
         </p>
