@@ -10,7 +10,7 @@ export const Hero = () => {
     >
       <div className="w-[90%] md:w-[80%] mx-auto items-center grid grid-cols-1 xl:grid-cols-2 gap-10">
         {/* Text Content Part */}
-        <div>
+        <div data-aos="fade-up">
           <p className="text-sm sm:text-base md:text-xl font-bold text-[#800020]">
             Optimize Your Workflow
           </p>

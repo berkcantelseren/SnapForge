@@ -10,7 +10,11 @@ export default function Faq() {
   };
 
   return (
-    <div id="faq" className="py-20 px-8 max-w-7xl mx-auto">
+    <div
+      id="faq"
+      className="py-20 px-8 max-w-7xl mx-auto"
+      data-aos="zoom-in-up"
+    >
       <p className="text-2xl lg:text-3xl font-extrabold pb-16 text-center custom-selection-3">
         Frequently Asked Questions
       </p>

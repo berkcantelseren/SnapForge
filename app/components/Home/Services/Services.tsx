@@ -9,7 +9,7 @@ import { BsBuildingsFill } from "react-icons/bs";
 
 export const Services = () => {
   return (
-    <div id="services" className="pt-16 pb-16">
+    <div id="services" className="pt-16 pb-16" data-aos="fade-up">
       <div className="w-[80%] mx-auto">
         <BoxText>Our Services</BoxText>
         {/* Heading  */}

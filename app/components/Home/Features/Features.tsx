@@ -4,7 +4,11 @@ import { FaArrowsRotate, FaChartLine, FaPalette } from "react-icons/fa6";
 
 export const Features = () => {
   return (
-    <div id="features" className="pt-16 pb-16 bg-[#f4f4f4]">
+    <div
+      id="features"
+      className="pt-16 pb-16 bg-[#f4f4f4]"
+      data-aos="fade-left"
+    >
       <div>
         <h1 className="text-center text-2xl font-bold text-gray-800 custom-selection-3">
           Why Choose SnapForge?

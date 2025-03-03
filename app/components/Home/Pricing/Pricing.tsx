@@ -2,7 +2,7 @@ import PriceCard from "./PriceCard";
 
 export default function Pricing() {
   return (
-    <div id="pricing" className="pt-16 pb-16 bg-gray-100">
+    <div id="pricing" className="pt-16 pb-16 bg-gray-100" data-aos="fade-right">
       <h1 className="text-center text-2xl text-gray-800 font-bold custom-selection-3">
         Pick the Plan That Fits You Best
       </h1>

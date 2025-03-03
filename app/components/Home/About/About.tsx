@@ -3,7 +3,7 @@ import BoxText from "../../Helper/BoxText";
 
 export const About = () => {
   return (
-    <div className="pt-16 pb-16 ">
+    <div className="pt-16 pb-16 " data-aos="fade-right">
       <div className="w-[80%] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
         {/* Image Content */}
         <div>
