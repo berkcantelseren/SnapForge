@@ -15,24 +15,25 @@ export const Navbar = ({ openNav }: NavProps) => {
 
   useEffect(() => {
     const handler = () => {
-      if (window.scrollY >= 90) setNavBg(true);
-      if (window.scrollY < 90) setNavBg(false);
+      setNavBg(window.scrollY >= 90);
     };
-    window.addEventListener("scroll", handler);
 
+    handler();
+
+    window.addEventListener("scroll", handler);
     return () => window.removeEventListener("scroll", handler);
   }, []);
 
   return (
     <div
-      className={`transition-all ${
-        navBg ? "bg-white shadow-md shadow-[#c9c3c5]" : "fixed"
-      } duration-200 h-[12vh] z-[100] fixed w-full`}
+      className={`transition-all duration-200 h-[12vh] z-[100] fixed w-full ${
+        navBg ? "bg-white shadow-md shadow-[#c9c3c5]" : "bg-transparent"
+      }`}
     >
-      <div className="flex items-center h-full lg:justify-around justify-between w-[90%] xl:w[80%] mx-auto">
+      <div className="flex items-center h-full lg:justify-around justify-between w-[90%] xl:w-[80%] mx-auto">
         {/* {SnapForge Logo} */}
-        <div className="flex items-center space-x-2 ml:auto">
-          <div className="w-12 h-12 bg-[#800020] rounded-full flex items-center justify-center flex-col">
+        <div className="flex items-center space-x-2">
+          <div className="w-12 h-12 bg-[#800020] rounded-full flex items-center justify-center">
             <GiGearHammer className="w-8 h-8 text-white" />
           </div>
           <h1 className="text-xl hidden sm:block md:text-2xl text-[#800020] font-bold">
@@ -40,18 +41,16 @@ export const Navbar = ({ openNav }: NavProps) => {
           </h1>
         </div>
         {/* {NavLinks} */}
-        <div className="hidden lg:flex items-center space-x-15">
-          {navLinks.map((link) => {
-            return (
-              <Link
-                href={link.url}
-                key={link.id}
-                className="text-black hover:text-[#9B2D2F] hover:underline hover:underline-offset-5 font-semibold transition-all duration-200"
-              >
-                <p>{link.label}</p>
-              </Link>
-            );
-          })}
+        <div className="hidden lg:flex items-center space-x-10">
+          {navLinks.map((link) => (
+            <Link
+              href={link.url}
+              key={link.id}
+              className="text-black hover:text-[#9B2D2F] hover:underline hover:underline-offset-5 font-semibold transition-all duration-200"
+            >
+              {link.label}
+            </Link>
+          ))}
         </div>
         {/* {Buttons} */}
         <div className="flex items-center space-x-4">
