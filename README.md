@@ -42,6 +42,3 @@ You can check out the live version of SnapForge here: [snapforge.vercel.app](htt
 *Home Page*
 
 ![Home](public/images/Home.png)
-
-
-# **SnapForge** - Empowering businesses to automate and scale effortlessly.
