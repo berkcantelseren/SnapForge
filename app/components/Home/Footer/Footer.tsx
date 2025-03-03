@@ -1,3 +1,4 @@
+import Link from "next/link";
 import {
   FaInstagram,
   FaLinkedin,
@@ -76,7 +77,13 @@ export default function Footer() {
         className="mt-8 w-[80%] mx-auto border-t pt-8 flex flex-col md:flex-row justify-between items-center text-gray-600 text-sm"
       >
         <p className="text-center md:text-left">
-          Copyright © 2025 brkcntlsrn All rights reserved
+          Copyright © 2025{" "}
+          <Link href="https://www.linkedin.com/in/berkcantelseren/">
+            <span className="font-bold text-gray-800 cursor-pointer mr-1 hover:text-[#800020] hover:underline hover:underline-offset-4">
+              brkcntlsrn
+            </span>
+          </Link>
+          All rights reserved
         </p>
         <div className="flex items-center space-x-4 mt-4 md:mt-0">
           <span>Our Socials:</span>
