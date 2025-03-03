@@ -1,10 +1,6 @@
 import { FaRocket, FaTwitch, FaUserClock } from "react-icons/fa6";
 import BoxText from "../../Helper/BoxText";
-import {
-  MdBusinessCenter,
-  MdOutlineContactSupport,
-  MdOutlineSupportAgent,
-} from "react-icons/md";
+import { MdBusinessCenter, MdOutlineContactSupport } from "react-icons/md";
 import { BsBuildingsFill } from "react-icons/bs";
 
 export const Services = () => {
@@ -37,8 +33,8 @@ export const Services = () => {
                 Start Up
               </p>
               <p className="text-sm text-gray-700">
-                Kickstart your startup with SnapForge’s automation and seamless
-                workflow solutions.
+                Kickstart your startup with SnapForge&apos;s automation and
+                seamless workflow solutions.
               </p>
             </div>
           </div>
@@ -105,8 +101,8 @@ export const Services = () => {
                 7/24 Support
               </p>
               <p className="text-sm text-gray-700">
-                SnapForge offers constant support, ensuring you're never alone
-                in your journey.
+                SnapForge offers constant support, ensuring you&apos;re never
+                alone in your journey.
               </p>
             </div>
           </div>

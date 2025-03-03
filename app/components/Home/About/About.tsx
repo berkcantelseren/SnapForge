@@ -33,8 +33,8 @@ export const About = () => {
           <div className="mt-8 border-l-2 border-gray-200">
             <div className="ml-6">
               <p className="text-gray-800 font-bold">
-                "SnapForge took the burden of manual work off our shoulders and
-                improved our teams performance."
+                &quot;SnapForge took the burden of manual work off our shoulders
+                and improved our teams performance.&quot;
               </p>
               <div className="flex items-center space-x-6 mt-6">
                 <Image
