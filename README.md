@@ -21,8 +21,7 @@ You can check out the live version of SnapForge here: [snapforge.vercel.app](htt
   - **Next.js (v15)** – A React framework that enables server-side rendering (SSR) and static site generation (SSG) for blazing-fast performance.
   - **React 19** – The latest version of React for building dynamic and reusable components.
   - **Tailwind CSS** – Utility-first CSS framework that allows for responsive and flexible design with minimal effort.
-  - **TypeScript** – Ensuring type safety and better development experience with static type checking.
-  - 
+  - **TypeScript** – Ensuring type safety and better development experience with static type checking. 
 ---
 
 ## 📈 **Future Plans**
@@ -31,7 +30,7 @@ You can check out the live version of SnapForge here: [snapforge.vercel.app](htt
 - User authentication and role-based access.
 - Advanced analytics dashboard for tracking social media performance.
   
-- **Adding Backend**
+ **Adding Backend**
    
 - **Node.js** – JavaScript runtime for scalable server-side logic.
 - **Express.js** – Web framework for handling API routes and middleware.
