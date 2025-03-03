@@ -4,7 +4,10 @@ import { FaStar } from "react-icons/fa";
 
 export const Hero = () => {
   return (
-    <div className="relative w-full h-[110vh] sm:h-screen flex justify-center flex-col">
+    <div
+      className="relative w-full h-[110vh] sm:h-screen flex justify-center flex-col"
+      data-aos="fade-right"
+    >
       <div className="w-[90%] md:w-[80%] mx-auto items-center grid grid-cols-1 xl:grid-cols-2 gap-10">
         {/* Text Content Part */}
         <div>

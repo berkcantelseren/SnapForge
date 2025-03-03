@@ -30,7 +30,7 @@ export const Navbar = ({ openNav }: NavProps) => {
         navBg ? "bg-white shadow-md shadow-[#c9c3c5]" : "bg-transparent"
       }`}
     >
-      <div className="flex items-center h-full lg:justify-around justify-between w-[90%] xl:w-[80%] mx-auto">
+      <div className="flex items-center h-full justify-between w-[90%] xl:w-[80%] mx-auto">
         {/* {SnapForge Logo} */}
         <div className="flex items-center space-x-2">
           <div className="w-12 h-12 bg-[#800020] rounded-full flex items-center justify-center">

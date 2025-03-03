@@ -1,6 +1,5 @@
 import Link from "next/link";
 import {
-  FaInstagram,
   FaLinkedin,
   FaSquareInstagram,
   FaSquareXTwitter,
@@ -9,53 +8,53 @@ import {
 export default function Footer() {
   return (
     <div className="pt-16 pb-16 bg-[#f4f4f4]">
-      <div className="w-[80%] mx-auto items-start grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4">
+      <div className="w-[80%] mx-auto items-start grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* 1st Section Footer  */}
         <div className="space-y-5">
-          <h1 className="text-lg font-bold">Testing</h1>
+          <h1 className="text-lg font-bold">Support</h1>
           <p className="text-gray-800 font-medium cursor-pointer text-sm hover:text-[#9B2D2F]">
-            Lorem, ipsum.
+            Report a Bug
           </p>
           <p className="text-gray-800 font-medium cursor-pointer text-sm hover:text-[#9B2D2F]">
-            Lorem, ipsum.
+            System Status
           </p>
           <p className="text-gray-800 font-medium cursor-pointer text-sm hover:text-[#9B2D2F]">
-            Lorem, ipsum.
+            Ticket Submission
           </p>
         </div>
         {/* 2st Section Footer  */}
         <div className="space-y-5">
-          <h1 className="text-lg font-bold">Testing Second</h1>
+          <h1 className="text-lg font-bold">Company</h1>
           <p className="text-gray-800 font-medium cursor-pointer text-sm hover:text-[#9B2D2F]">
-            Lorem, ipsum.
+            About Us
           </p>
           <p className="text-gray-800 font-medium cursor-pointer text-sm hover:text-[#9B2D2F]">
-            Lorem, ipsum.
+            Careers
           </p>
           <p className="text-gray-800 font-medium cursor-pointer text-sm hover:text-[#9B2D2F]">
-            Lorem, ipsum.
+            Press & Media
           </p>
           <p className="text-gray-800 font-medium cursor-pointer text-sm hover:text-[#9B2D2F]">
-            Lorem, ipsum.
+            Privacy Policy
           </p>
           <p className="text-gray-800 font-medium cursor-pointer text-sm hover:text-[#9B2D2F]">
-            Lorem, ipsum.
+            Terms of Service
           </p>
         </div>
         {/* 3st Section Footer  */}
         <div className="space-y-5">
-          <h1 className="text-lg font-bold">Testing Third</h1>
+          <h1 className="text-lg font-bold">Resources</h1>
           <p className="text-gray-800 font-medium cursor-pointer text-sm hover:text-[#9B2D2F]">
-            Lorem, ipsum.
+            Help Center
           </p>
           <p className="text-gray-800 font-medium cursor-pointer text-sm hover:text-[#9B2D2F]">
-            Lorem, ipsum.
+            Partnerships
           </p>
           <p className="text-gray-800 font-medium cursor-pointer text-sm hover:text-[#9B2D2F]">
-            Lorem, ipsum.
+            Community
           </p>
           <p className="text-gray-800 font-medium cursor-pointer text-sm hover:text-[#9B2D2F]">
-            Lorem, ipsum.
+            Setup Example
           </p>
         </div>
         {/* 4st Section Footer  */}
