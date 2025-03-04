@@ -12,6 +12,7 @@ You can check out the live version of SnapForge here: [snapforge.vercel.app](htt
 - **Customizable Templates**: Create tailored social media posts with pre-designed templates.
 - **Content Scheduling**: Plan and schedule posts in advance with intuitive calendar integration.
 - **Brand Customization**: Personalize every post with your brand colors, logos, and style.
+- 📱 **Fully Responsive** – Optimized for both desktop and mobile experiences. 
 
 ---
 
