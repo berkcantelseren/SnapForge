@@ -113,7 +113,7 @@ const faqData = [
     answer: [
       {
         title: "📞",
-        text: "We offer special AI Assistant support available whenever you need it, along with a dedicated customer support team reachable via chat and email. Our 24/7 support ensures you're never left without assistance, no matter the time or issue.",
+        text: "We offer special AI Assistant support available whenever you need it, along with a dedicated customer support team reachable via chat and email. Our 7/24 support ensures you're never left without assistance, no matter the time or issue.",
       },
     ],
   },
