@@ -79,7 +79,7 @@ export default function Footer() {
           Copyright © 2025{" "}
           <Link href="https://www.linkedin.com/in/berkcantelseren/">
             <span className="font-bold text-gray-800 cursor-pointer mr-1 hover:text-[#800020] hover:underline hover:underline-offset-4">
-              brkcntlsrn
+              @pyrismarift
             </span>
           </Link>
           All rights reserved
