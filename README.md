@@ -42,3 +42,7 @@ You can check out the live version of SnapForge here: [snapforge.vercel.app](htt
 *Home Page*
 
 ![Home](public/images/Home.png)
+
+*Lighthouse*
+
+![Lighthouse](public/images/lighthouse.png)
